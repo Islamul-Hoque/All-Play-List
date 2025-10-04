@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Anisul Islam",
+    "playlists": [
+      {
+        "title": "Full-stack web development Roadmap",
+        "url": "https://youtube.com/playlist?list=PLgH5QX0i9K3pShEf_RCcVqPKxFm7sOLVD&si=qt2kuBoA43Oi2tMi"
+      },
+      {
+        "title": "Git & GitHub Bangla (Beginner to Advanced)",
+        "url": "https://youtube.com/playlist?list=PLgH5QX0i9K3qAW8DT6I0XOxC23qnA4FL-&si=xAMTkP62axCX_P21"
+      },
+      {
+        "title": "CSS full course bangla tutorial (Beginner to Advanced)",
+        "url": "https://www.youtube.com/playlist?list=PLgH5QX0i9K3qjCBXjTmv7Xeh8MDUUVJDO"
+      },
+      {
+        "title": "javascript Beginner to Advanced Bangla Tutorials",
+        "url": "https://youtube.com/playlist?list=PLgH5QX0i9K3qzryglMjcyEktz4q7ySunX&si=QZGX8bb_1HrYT4JD"
+      }
+    ]
+  },
+  {
+    "name": "OKtoShare",
+    "playlists": [
+      {
+        "title": "HTML Play List",
+        "url": "https://youtube.com/playlist?list=PLnxQfwjuww2-JstVS7aMI3S2tMHx8K5rb&si=hzKGY3BmM9FNvhkH"
+      },
+      {
+        "title": "CSS Play List",
+        "url": "https://youtube.com/playlist?list=PLnxQfwjuww285D7spgS-vmkHBvAHjJOKY&si=hO0jA_qKb-HooOXS"
+      }
+    ]
+  },
+  {
+    "name": "Hablu Programmer",
+    "playlists": [
+      {
+        "title": "Git & Github Bangla Tutorial",
+        "url": "https://youtube.com/playlist?list=PLNMnAEqLBwmqnr-hhIa2z-2janfklDV4A&si=FHXTI2wjJXo_JzOr"
+      }
+    ]
+  },
+  {
+    "name": "Maxcoder BD",
+    "playlists": [
+      {
+        "title": "Complete Website Design | Total ১১ টি সেকশনের একটি পূর্ণাঙ্গ ওয়েবসাইট-এর Complete Design",
+        "url": "https://youtube.com/playlist?list=PLNjVE_WF18LKEX28f8phB8p4F0mBHYqmf&si=Thzzz0BVXuD0pJAI"
+      }
+    ]
+  },
+  {
+    "name": "Ali Hossain",
+    "playlists": [
+      {
+        "title": "প্রজেক্ট সহ Tailwind CSS শিখুন | Tailwind CSS Crash Course Bangla Tutorial",
+        "url": "https://youtu.be/7lmoLxbUENM?si=wov0wWLNc9TJMtx9"
+      }
+    ]
+  },
+  {
+    "name": "Code ABC",
+    "playlists": [
+      {
+        "title": "Tailwind CSS Bangla Tutorial Basic to Project Series",
+        "url": "https://youtube.com/playlist?list=PL2ozzDVxiDachzWAOiMRrjgrqe7EO-XOv&si=L32wSEL5I5x0vGo8"
+      }
+    ]
+  }
+]
