@@ -3,33 +3,16 @@ const ID = id => document.getElementById(id);
 fetch('data.json').then(res=>res.json()).then(data =>{
     const ItSection = ID('ItSection')
 
-    // Create dl & dt
-    const dl = document.createElement('dl')
+    let dl = `<dl>`
     data.forEach(person => {
-        const dt = document.createElement('dt')
-        dt.innerText = person.name
-        dl.appendChild(dt)
-
-    // Create dd , ul, li, a
-    const dd = document.createElement('dd')
-    const ul = document.createElement('ul')
-    person.playlists.forEach(playlists => {
-        const li = document.createElement('li')
-        const a = document.createElement('a')
-        a.href = playlists.url
-        a.target = '_blank'
-        a.innerText = playlists.title
-
-        li.appendChild(a)
-        ul.appendChild(li)
-    })
-    //
-    dd.appendChild(ul)
-    dl.appendChild(dd)
+        dl += `
+        <dt class="text-2xl mt-4 ml-4 font-semibold">${person.name}</dt>
+            <dd class="ml-18"> 
+                <ul class="mb-4"> ${person.playlists.map( playlist => 
+                    ` <li> <i class="fa-solid fa-arrow-right"></i> <a href="${playlist.url}" target="_blank"> ${playlist.title}</a> </li>`).join('')}  
+                <ul>
+            </dd>`
     });
-    
-    ItSection.appendChild(dl)
-
-
-    
+    dl += `</dl>`
+    ItSection.innerHTML = dl
 })
